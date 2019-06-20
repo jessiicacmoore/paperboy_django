@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="paperboy-heading">{{ paperboy }} Report Card</h2>
+
+<section class="paperboy-report-card">
+  <p><strong>Experience: </strong> {{ paperboy.experience }} papers delivered</p>
+  <p><strong>Earnings: </strong> ${{ earnings }}</p>
+</section>
+{% endblock %}
